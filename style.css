@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+.nav-link{
+   margin-right: 10px;
+   margin-left: 10px;
+   color: black;
+   text-transform: uppercase;
+}
+.nav-link:hover{
+    color: red;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(248, 26, 92);
+    margin-right: -35px; 
+  
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.main{
+    background: url(all\ fruit.jpeg)no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+ .btn-outline{
+    border-radius: 60px;
+    background-color: rgb(248, 26, 92);
+    color: white;
+ }
+ h1{
+    font-weight: 700;
+ }
+ .btn1{
+    height: 45px;
+    width: 35%;
+    outline: none;
+    border: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn1:hover{
+    background-color:  red;
+    transition: 0.5s;
+}
+.card:hover{
+    box-shadow: -2px 12px 24px 2px #000000; 
+box-shadow: -2px 12px 24px 2px #000000;
+transition: 0.5s;
+}
+.apple{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), 
+            url('apple eating.avif') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+     width: 100%;  /*alw willbe 100 */
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.news{
+    background-color: black;
+    color: white;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+   
+}
+.news::placeholder{
+    color: white;
+
+}
+.news p{
+   margin: 0;
+}
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
